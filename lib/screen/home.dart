@@ -117,7 +117,7 @@ class MyScreen extends StatelessWidget {
                 initialPage: 0,
                 enableInfiniteScroll: true,
                 reverse: false,
-                autoPlay: true,
+                autoPlay: false,
                 autoPlayInterval: Duration(seconds: 3),
                 autoPlayAnimationDuration: Duration(milliseconds: 800),
                 autoPlayCurve: Curves.fastOutSlowIn,
